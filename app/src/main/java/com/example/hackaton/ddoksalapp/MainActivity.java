@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 case LoaderCallbackInterface.SUCCESS:
                 {
                     Log.i(TAG, "OpenCV loaded successfully");
+                    Log.i(TAG, "OpenCV loaded successfully????");
+
                 } break;
             }
 
