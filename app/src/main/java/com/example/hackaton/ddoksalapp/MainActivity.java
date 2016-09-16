@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     Log.i(TAG, "OpenCV loaded successfully");
                     Log.i(TAG, "OpenCV loaded successfully????");
+                    Log.i(TAG, "댐미까?");
 
                 } break;
             }
