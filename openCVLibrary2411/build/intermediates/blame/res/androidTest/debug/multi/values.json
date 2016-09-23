@@ -1,10 +1,6 @@
 [
     {
-        "outputFile": "/Users/yoonjungchung/AndroidStudioProjects/DdokSalApp/openCVLibrary2411/build/intermediates/res/merged/androidTest/debug/values/values.xml",
-        "map": []
-    },
-    {
-        "outputFile": "/Users/YOGNO/AndroidStudioProjects/hackaton/openCVLibrary2411/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "outputFile": "/Users/yoonjungchung/AndroidStudioProjects/hackaton/openCVLibrary2411/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": []
     }
 ]

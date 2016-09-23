@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/YOGNO/AndroidStudioProjects/hackaton/openCVLibrary2411/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Users/YOGNO/AndroidStudioProjects/hackaton/openCVLibrary2411/src/release/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/yoonjungchung/AndroidStudioProjects/hackaton/openCVLibrary2411/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Users/yoonjungchung/AndroidStudioProjects/hackaton/openCVLibrary2411/src/release/shaders"/></dataSet></merger>

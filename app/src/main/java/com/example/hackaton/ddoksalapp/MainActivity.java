@@ -142,6 +142,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.color_blob_detection_activity_surface_view);
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
+
     }
 
     @Override
@@ -251,6 +252,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
             //Imgproc.drawContours(mRgba, contours, -1, CONTOUR_COLOR);
             MatOfPoint2f approxCurve = new MatOfPoint2f();
 
+
             for (int i = 0; i < contours.size(); i++){
                 //Convert contours(i) from MatOfPoint to MatOfPoint2f
                 MatOfPoint2f contour2f = new MatOfPoint2f( contours.get(i).toArray() );
@@ -263,7 +265,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
                 // Get bounding rect of contour
                 Rect rect = Imgproc.boundingRect(points);
-
+                int x = rect.x;
                 // draw enclosing rectangle (all same color, but you could use variable i to make them unique)
                 Core.rectangle(mRgba, rect.tl(), rect.br(), new Scalar(255, 0, 0),1, 8,0);
             }
